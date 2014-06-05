@@ -2,16 +2,132 @@
 	border: 1px solid red;
 }
 
+header {
+	margin: 0 auto;
+	background-image: url(../images/header.jpg);
+}
+
+.container_top {
+	margin: 0 auto;
+	width: 960px;
+	height: 500px;
+}
+
+nav.main, a {
+	 text-decoration: none;
+	 color: #0D3451;
+}
+
+nav.main, img {
+	margin: 0;
+	padding: 0;
+}
+
+p.tagline { 
+  top: 100px; 
+  width: 100%; 
+  text-align: center;
+  color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 100px;
+	text-shadow: #0D3451 2px 2px;
+	margin-bottom: none;
+	padding-bottom: none;
+}
+
+small {
+	  color: #0D3451;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 13px;
+		text-transform: none;
+		margin-top: 0px;
+		display: block;
+		text-shadow: none;
+		font-weight: bold;
+}
+
+
+
+
+ul.top_left, li {
+   list-style-type: none;
+   display: inline-block;
+   font-family: 'PT Sans', sans-serif;
+   padding-left: 0px;
+}
+
+ul.top_right, li{
+   list-style-type: none;
+   display: inline-block;
+   float: right;
+   font-family: 'Oswald', sans-serif;
+   padding-left: 0px;
+}
+
+ul.top_right, li, img{
+	padding-left: 10px;
+}
+
+li {
+		 padding-left: 20px;
+}
+
+
+/*
+
+
+
+
+
+header.billboard {
+  position: relative; 
+  margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+
+
+
+.billboard {
+	position: relative;
+	z-index: 1;
+}
+
+.overlay {
+	clear: both;
+	position: relative;
+	z-index: 2;
+}
+
+
+p.tagline {
+	
 
 }
+
+
+nav, ul {
+	list-style-type: none;
+	margin:0; 
+	padding:0; 
+}
+
+nav, li{
+	float:left; 
+}
+
+nav, ul, a { 
+	color: #0D3451;
+	padding: 5px; 
+	display: block;
+	
+}
+
+
+
 h1 {
-		color: white;
-		font-family: 'Myriad Pro', sans-serif;
-		text-transform: uppercase;
-		font-size: 20px;
-}
-
-h2 {
 	color: #0D3451;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -25,20 +141,16 @@ h3 {
 	font-size: 12px;
 }
 
+
+
 p {
 	color: black;
 	font-family: 'Myriad Pro', sans-serif;
 	font-size: 11px;
 }
 
-ul {
-	list-style-type: none
-}
 
-li {
-	float: left;
-	clear: both;
-}
+
 
 .date {
 	text-decoration: underline;
@@ -50,8 +162,7 @@ li {
 }
 
 aside {
-	float: left;
-
+	float: right;
 }
 
 ul.contacts {
@@ -61,7 +172,20 @@ ul.contacts {
 
 footer {
 	width: 100%;
-	height: 400px;
 	background-color: #0D3451;
 	color: white;
 }
+
+
+
+
+
+footer, nav, ul, a { 
+	color: #ffffff;
+	padding: 5px; 
+	display: block;
+	float: left;
+}
+*/
+
+
