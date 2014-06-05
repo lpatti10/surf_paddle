@@ -44,14 +44,14 @@ p.tagline {
 }
 
 small {
-	  color: #0D3451;
-		font-family: 'PT Sans', sans-serif;
-		font-size: 13px;
-		text-transform: none;
-		margin-top: 0px;
-		display: block;
-		text-shadow: none;
-		font-weight: bold;
+  color: #0D3451;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	text-transform: none;
+	margin-top: 0px;
+	display: block;
+	text-shadow: none;
+	font-weight: bold;
 }
 
 ul.top_left, li {
@@ -81,21 +81,67 @@ li {
 	margin: 0 auto;
 	width: 960px;
 }
+
+/************** ASIDE *********************/
+
+aside {
+	width: 230px;
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.avatar {
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 40px;
+}
+
+h4 {
+	color: #206DB1;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
+
+ul.contacts {
+	font-family: 'Oswald', sans-serif;
+	font-size: 10px;	
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+}
+
+.advertisement {
+	width: 230px;
+	padding-left: 0px;
+}
+/************** ARTICLE *********************/
+
 article {
 	margin: 0; 
 	width: 630px;
 }
 
-aside {
-	width: 330px;
-		float: right;
-
+.thumb {
+	width: 15px;
+	height: 15px;
+	padding-left: 0px;
+	padding-right: 5px;
+	display: inline-block;
 }
 
-.avatar, img {
-		margin: 0 auto;
-		text-align: center;
+.authorname {
+	display: inline-block;
+	color: #206DB1;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+}
 
+.date {
+	display: inline-block;
+	text-decoration: underline;
 }
 
 h1 {
@@ -103,31 +149,34 @@ h1 {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-size: 48px;
+	margin-bottom: 0px;
 }
 
 h3 {
 	color: #206DB1;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 15px;
 }
-
-
 
 p {
-	color: black;
-	font-family: 'Myriad Pro', sans-serif;
-	font-size: 11px;
+	color: #5E686F;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+}
+blockquote {
+	color: #206DB1;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
 }
 
-.date {
-	text-decoration: underline;
+a.inline {
+	color: #206DB1;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
 }
 
-.thumb {
-	width: 15px;
-	height: 15px;
-}
 
 
 ul.contacts {
@@ -151,6 +200,15 @@ h2 {
 footer.main {
 	clear: float;
 }
+
+h2 {
+	color: #0D3451;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+
 /*
 footer, nav, ul {
 	list-style-type: none;
