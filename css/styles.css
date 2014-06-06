@@ -54,14 +54,14 @@ small {
 	font-weight: bold;
 }
 
-ul.top_left, li {
+ul.top_left {
    list-style-type: none;
    display: inline-block;
    font-family: 'PT Sans', sans-serif;
    padding-left: 40px;
 }
 
-ul.top_right, li{
+ul.top_right, li {
    list-style-type: none;
    display: inline-block;
    float: right;
@@ -69,8 +69,8 @@ ul.top_right, li{
    padding-left: 0px;
 }
 
-ul.top_right, li, img{
-	padding-left: 10px;
+.search {
+	padding-left: 5px;
 }
 
 li {
@@ -102,6 +102,8 @@ h3 {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-size: 15px;
+	margin-top: 50px;
+	margin-bottom: 0px;
 }
 
 h4 {
@@ -117,8 +119,10 @@ h4 {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 10px;	
 	margin: 0px;
-	padding: 0px;
+	padding: 2px;
 	display: inline-block;
+	color: #A4B3BF
+
 }
 
 .social {
@@ -131,6 +135,15 @@ h4 {
 	width: 230px;
 	padding-left: 0px;
 	margin-top: 30px;
+}
+
+.adlink {
+font-family: 'PT Sans', sans-serif;
+	font-size: 10px;	
+	float: right;
+	display: inline-block;
+	color: #A4B3BF;	
+	text-decoration: underline;
 }
 
 .caption, p {
@@ -191,11 +204,7 @@ a.inline {
 	font-size: 14px;
 }
 
-ul.contacts {
-	float: left;
-	color: #A4B3BF;
-	font-family: 'PT Sans', sans-serif;
-}
+
 
 h2 {
 	color: #0D3451;
@@ -203,8 +212,46 @@ h2 {
 	text-transform: uppercase;
 	font-size: 48px;
 }
+.button {
+		display: inline-block;
+		width: 125px;
+		height: 25px;
+			margin: 0px 10px 0px 0px;
+
+}
+
+.bug {
+	background-color: #5E686F;
+	margin: 0px;
+	float: left;
+	height: 15px;
+	width: 15px;
+				border: none;
+				padding: 5px;
 
 
+}
+.label {
+	float: right;
+	background-color: #A4B3BF;
+	text-align: center;
+	color: #ffffff;
+	margin: 0px;
+	padding-top: 5px;
+	color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	height: 20px;
+	width: 100px;
+				border: none;
+
+
+
+}
+
+_footer_article {
+	padding: 0px;
+}
 
 
 /************** FOOTER *********************/
