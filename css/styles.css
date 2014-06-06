@@ -147,7 +147,8 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .caption, p {
-	color: #A4B3BF
+	color: #A4B3BF;
+	font-size:10px;
 }
 
 /************** ARTICLE *********************/
@@ -171,10 +172,16 @@ article {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 11px;
 }
+time {
+	color: #A4B3BF;
+	font-size:10px
+}
 
 .date {
 	display: inline-block;
 	text-decoration: underline;
+	color: #A4B3BF;
+	font-size:10px;
 }
 
 h1 {
@@ -198,7 +205,7 @@ blockquote {
 	font-size: 24px;
 }
 
-a.inline {
+span.inline {
 	color: #206DB1;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
@@ -212,6 +219,7 @@ h2 {
 	text-transform: uppercase;
 	font-size: 48px;
 }
+
 .button {
 		display: inline-block;
 		width: 125px;
@@ -244,15 +252,7 @@ h2 {
 	height: 20px;
 	width: 100px;
 				border: none;
-
-
-
 }
-
-_footer_article {
-	padding: 0px;
-}
-
 
 /************** FOOTER *********************/
 
@@ -266,6 +266,59 @@ h2 {
 	text-transform: uppercase;
 	font-size: 48px;
 	margin-bottom: 0px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.filmstrip {
+	height: 330px;
+	width: 1300px;
+}
+
+.post1 {
+	margin: 0 auto;
+	background-image: url(../images/article-image-1.jpg);
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 330px;
+	border: none;
+	float: left;
+
+}
+
+.post2 {
+	margin: 0 auto;
+	background-image: url(../images/article-image-2.jpg);
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 330px;
+	border: none;
+	float: left;
+}
+.post3 {
+	margin: 0 auto;
+	background-image: url(../images/article-image-3.jpg);
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 330px;
+	border: none;
+	float: left;
+}
+
+.post4 {
+	margin: 0 auto;
+	background-image: url(../images/article-image-4.jpg);
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 330px;
+	border: none;
+	float: left;
+}
+
+.container_bottom {
+	margin: 0 auto;
+	width: 960px;
+	height: 100px;
 }
 
 /*
