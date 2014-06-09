@@ -251,7 +251,7 @@ h2 {
 	font-size: 13px;
 	height: 20px;
 	width: 100px;
-				border: none;
+	border: none;
 }
 
 /************** FOOTER *********************/
@@ -434,7 +434,7 @@ a.post1.overlay:hover {
 
 p.sub_left {
 	display: inline-block;
-	margin-bottom: 100px;
+	margin-bottom: 0px;
 	padding: 0px;
 }
 /*
@@ -443,14 +443,7 @@ nav.sub {
 	float: right;
 }*/
 
-a.sub_right {
-	display:inline-block;
-	float: right;
-	color: #ffffff;
-	font-size: 12px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+
 
 .bottom_left {
 	height: 60px;
@@ -464,7 +457,6 @@ img.bottom_left {
 }
 img.margin {
 	margin: 10px;	
-
 }
 
 p.bottom_left {
@@ -480,16 +472,29 @@ ul.bottom_right {
 #navlist {
 list-style: none;
 padding: 0;
-margin-left: 20px;
+margin-left: 10px;
 }
 
 #navlist li {
 display: inline;
-margin-left: 20px;
+margin-left: 10px;
 padding: 0;
 margin: 0;
+font-size: 11px;
 color: #ffffff;
 }
+
+a.sub_right {
+	display:inline-block;
+	float: right;
+	color: #A4B3BF;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
 /*
 #navlist li:before { 
 	content: "| "; 
