@@ -275,6 +275,7 @@ h2 {
 	text-align: center;
 	padding-bottom: 20px;
 }
+/************* POST 1 **************/
 
 .post1 {
 	margin: 0 auto;
@@ -285,50 +286,7 @@ h2 {
 	border: none;
 	float: left;
 	padding: 0px;
-	background:rgba(255, 0, 0, .5); 
-}
-
-.post2 {
-	margin: 0 auto;
-	background-image: url(../images/article-image-2.jpg);
-	background-repeat: no-repeat;
-	width: 240px;
-	height: 240px;
-	border: none;
-	float: left;
-	padding: 0px;
-}
-
-.post3 {
-	margin: 0 auto;
-	background-image: url(../images/article-image-3.jpg);
-	background-repeat: no-repeat;
-	width: 240px;
-	height: 240px;
-	border: none;
-	float: left;
-	padding: 0px;
-}
-
-.post4 {
-	margin: 0 auto;
-	background-image: url(../images/article-image-4.jpg);
-	background-repeat: no-repeat;
-	width: 240px;
-	height: 240px;
-	border: none;
-	float: left;
-	padding: 0px;
-}
-/***************** Post Rollovers *********************/
-a.post1 {
-	background-color:rgba(255, 0, 0, .9);
-	opacity:0;
-	-webkit-transition: opacity .25s ease;
-}
-
-a.post1:hover {
-	opacity: 1;
+	position: relative;
 }
 
 p.title {
@@ -344,6 +302,89 @@ p.title {
 p.title:hover {
 	color: #0D3451;
 }
+/*
+.overlay {
+	width: 240px;
+	height: 240px;
+}
+
+
+a.overlay {
+	display: block;
+	position: absolute;
+	background:rgba(255, 0, 0, .5);
+	opacity:0;
+	-webkit-transition: opacity .25s ease;
+}
+
+a.overlay:hover {
+	opacity: 1;
+}
+*/
+
+
+/**************** POST 2 ****************/
+.post2 {
+	margin: 0 auto;
+	background-image: url(../images/article-image-2.jpg);
+	background-repeat: no-repeat;
+	width: 240px;
+	height: 240px;
+	border: none;
+	float: left;
+	padding: 0px;
+}
+
+p.title {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 200px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	font-size: 20px;
+	text-align: left;
+}
+
+p.title:hover {
+	color: #0D3451;
+}
+
+/**************POST 3******************/
+.post3 {
+	margin: 0 auto;
+	background-image: url(../images/article-image-3.jpg);
+	background-repeat: no-repeat;
+	width: 240px;
+	height: 240px;
+	border: none;
+	float: left;
+	padding: 0px;
+}
+p.title3 {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 175px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	font-size: 20px;
+	text-align: left;
+}
+
+p.title3:hover {
+	color: #0D3451;
+}
+.post4 {
+	margin: 0 auto;
+	background-image: url(../images/article-image-4.jpg);
+	background-repeat: no-repeat;
+	width: 240px;
+	height: 240px;
+	border: none;
+	float: left;
+	padding: 0px;
+}
+/***************** Post Rollovers *********************/
+
 /*
 .overlay {
 height: 240px;
@@ -392,8 +433,8 @@ a.post1.overlay:hover {
 }
 
 p.sub_left {
-	display: inline;
-	margin: 0px;
+	display: inline-block;
+	margin-bottom: 100px;
 	padding: 0px;
 }
 /*
