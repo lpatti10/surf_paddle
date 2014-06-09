@@ -275,39 +275,89 @@ h2 {
 	text-align: center;
 	padding-bottom: 20px;
 }
-/************* POST 1 **************/
 
-.post1 {
-	margin: 0 auto;
-	background-image: url(../images/article-image-1.jpg);
-	background-repeat: no-repeat;
-	width: 240px;
-	height: 240px;
+.post {
+	max-width: 240px;
+	height: 244px; 
 	border: none;
 	float: left;
-	padding: 0px;
 	position: relative;
 }
 
-p.title {
+#overlay {
+  position: absolute;
+  top: 0px; 
+  left: 0px;
+	width: 240px;
+	height: 244px;
+  color: #ffffff;  
+}
+
+.colorblock {
+	position: absolute;
+  top: 0px; 
+  left: 0px;
+	width: 240px;
+	height: 244px;
+	background-color: #0D3451;
+  opacity: 0.7;
+}
+
+.post:hover #overlay {
+  color: #0D3451;  
+  opacity:0;
+}
+
+.title_static:hover .title_static {
+  color:#ffffff;  
+  opacity:1;
+}
+
+.title_static { 
+  position: absolute;
+  margin: 0px; 
+  bottom: 10px; 
+  left: 10px;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+
+.title_hot { 
+  position: absolute;
+  margin: 0px; 
+  bottom: 10px; 
+  left: 10px;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px; 
+}
+
+img.photos {
+	max-width: 240px;
+	height: auto; 
+	border: none;
+}
+/************* POST 1 **************/
+/*
+
+
+
+.post p.title_static {
+	bottom: 0px;
 	color: #ffffff;
 	font-family: 'Oswald', sans-serif;
-	margin-top: 200px;
 	margin-bottom: 0px;
 	margin-left: 20px;
 	font-size: 20px;
 	text-align: left;
 }
 
-p.title:hover {
-	color: #0D3451;
-}
-/*
-.overlay {
-	width: 240px;
-	height: 240px;
-}
 
+
+
+
+/*
 
 a.overlay {
 	display: block;
@@ -320,14 +370,10 @@ a.overlay {
 a.overlay:hover {
 	opacity: 1;
 }
-*/
 
 
-/**************** POST 2 ****************/
 .post2 {
 	margin: 0 auto;
-	background-image: url(../images/article-image-2.jpg);
-	background-repeat: no-repeat;
 	width: 240px;
 	height: 240px;
 	border: none;
@@ -349,11 +395,8 @@ p.title:hover {
 	color: #0D3451;
 }
 
-/**************POST 3******************/
 .post3 {
 	margin: 0 auto;
-	background-image: url(../images/article-image-3.jpg);
-	background-repeat: no-repeat;
 	width: 240px;
 	height: 240px;
 	border: none;
@@ -375,14 +418,13 @@ p.title3:hover {
 }
 .post4 {
 	margin: 0 auto;
-	background-image: url(../images/article-image-4.jpg);
-	background-repeat: no-repeat;
 	width: 240px;
 	height: 240px;
 	border: none;
 	float: left;
 	padding: 0px;
 }
+*/
 /***************** Post Rollovers *********************/
 
 /*
