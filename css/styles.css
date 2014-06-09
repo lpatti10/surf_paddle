@@ -448,6 +448,8 @@ a.sub_right {
 	float: right;
 	color: #ffffff;
 	font-size: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .bottom_left {
@@ -483,15 +485,19 @@ margin-left: 20px;
 
 #navlist li {
 display: inline;
+margin-left: 20px;
 padding: 0;
 margin: 0;
+color: #ffffff;
 }
-
+/*
 #navlist li:before { 
 	content: "| "; 
 }
+
 #navlist li:first-child:before { 
 	content: ""; 
 }
+*/
 
 
