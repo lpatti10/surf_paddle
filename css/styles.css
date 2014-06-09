@@ -1,4 +1,4 @@
-* {
+_* {
 	border: 1px solid red;
 }
 
@@ -148,7 +148,7 @@ font-family: 'PT Sans', sans-serif;
 
 .caption, p {
 	color: #A4B3BF;
-	font-size:10px;
+	font-size:11px;
 }
 
 /************** ARTICLE *********************/
@@ -256,8 +256,14 @@ h2 {
 
 /************** FOOTER *********************/
 
-footer.main {
-	clear: float;
+
+
+.container_middle2 {
+	margin: 0 auto;
+	width: 960px;
+	height: 330px;
+	border: none;
+	padding: 0px;
 }
 
 h2 {
@@ -270,92 +276,181 @@ h2 {
 	padding-bottom: 20px;
 }
 
-.filmstrip {
-	height: 330px;
-	width: 1300px;
-}
-
 .post1 {
 	margin: 0 auto;
 	background-image: url(../images/article-image-1.jpg);
 	background-repeat: no-repeat;
-	width: 325px;
-	height: 330px;
+	width: 240px;
+	height: 240px;
 	border: none;
 	float: left;
-
+	padding: 0px;
+	background:rgba(255, 0, 0, .5); 
 }
 
 .post2 {
 	margin: 0 auto;
 	background-image: url(../images/article-image-2.jpg);
 	background-repeat: no-repeat;
-	width: 325px;
-	height: 330px;
+	width: 240px;
+	height: 240px;
 	border: none;
 	float: left;
+	padding: 0px;
 }
+
 .post3 {
 	margin: 0 auto;
 	background-image: url(../images/article-image-3.jpg);
 	background-repeat: no-repeat;
-	width: 325px;
-	height: 330px;
+	width: 240px;
+	height: 240px;
 	border: none;
 	float: left;
+	padding: 0px;
 }
 
 .post4 {
 	margin: 0 auto;
 	background-image: url(../images/article-image-4.jpg);
 	background-repeat: no-repeat;
-	width: 325px;
-	height: 330px;
+	width: 240px;
+	height: 240px;
 	border: none;
 	float: left;
+	padding: 0px;
 }
+/***************** Post Rollovers *********************/
+a.post1 {
+	background-color:rgba(255, 0, 0, .9);
+	opacity:0;
+	-webkit-transition: opacity .25s ease;
+}
+
+a.post1:hover {
+	opacity: 1;
+}
+
+p.title {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 200px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	font-size: 20px;
+	text-align: left;
+}
+
+p.title:hover {
+	color: #0D3451;
+}
+/*
+.overlay {
+height: 240px;
+width: 240px;
+}
+
+a.post1a {
+	display:block;
+	background-color:rgba(255, 0, 0, .9);
+opacity:0;
+-webkit-transition: opacity .25s ease;
+}
+
+a.post1a:hover {
+opacity: 1;
+}
+*/
+
+/*
+a.post1.overlay {
+background-color:rgba(255, 0, 0, .9);
+height: 240px;
+width: 240px;
+opacity:0;
+-webkit-transition: opacity .25s ease;
+}
+
+
+a.post1.overlay:hover {
+	opacity:1;
+	height: 240px;
+	width: 240px;
+	margin:0px;
+} */
+
+
+/****************** Bottom Blue Bar *******************/
 
 .container_bottom {
 	margin: 0 auto;
-	width: 960px;
-	height: 100px;
-}
-
-/*
-footer, nav, ul {
-	list-style-type: none;
-	margin:0; 
-	padding:0; 
-}
-
-footer, nav, li{
-	float:left; 
-}
-
-footer, nav, ul, a { 
-	color: #0D3451;
-	padding: 5px; 
-	display: block;
-	
-}
-
-
-footer {
-	width: 100%;
+	width: 930px;
+	height: 60px;
 	background-color: #0D3451;
-	color: white;
+	padding: 20px 20px 10px 10px;
+
 }
 
+p.sub_left {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+/*
+nav.sub {
+	display:inline-block;
+	float: right;
+}*/
 
-
-
-
-footer, nav, ul, a { 
+a.sub_right {
+	display:inline-block;
+	float: right;
 	color: #ffffff;
-	padding: 5px; 
-	display: block;
+	font-size: 12px;
+}
+
+.bottom_left {
+	height: 60px;
+	display: inline-block;
 	float: left;
 }
+
+img.bottom_left {
+	display: inline-block;
+	float:left;
+}
+img.margin {
+	margin: 10px;	
+
+}
+
+p.bottom_left {
+	display: inline-block;
+}
+/*
+ul.bottom_right {
+	display: inline-block;
+	float: right;
+}
 */
+
+#navlist {
+list-style: none;
+padding: 0;
+margin-left: 20px;
+}
+
+#navlist li {
+display: inline;
+padding: 0;
+margin: 0;
+}
+
+#navlist li:before { 
+	content: "| "; 
+}
+#navlist li:first-child:before { 
+	content: ""; 
+}
 
 
