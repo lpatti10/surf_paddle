@@ -328,7 +328,7 @@ h2 {
   margin: 0px; 
   bottom: 10px; 
   left: 10px;
-  color: #000000;
+  color: #0D3451;
   font-family: 'Oswald', sans-serif;
   font-size: 24px; 
 }
@@ -343,76 +343,76 @@ img.photos {
 
 .container_bottom {
 	margin: 0 auto;
-	width: 930px;
-	height: 60px;
+	width: 960px;
+	height: 80px;
 	background-color: #0D3451;
-	padding: 20px 20px 10px 10px;
+	position: relative;
+}
 
+.ironyd {
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.legal {
+	float: left;
+	margin-top: 32px;
+	margin-left: 20px;
 }
 
 p.sub_left {
-	display: inline-block;
-	margin-bottom: 0px;
-	padding: 0px;
+	margin: 0px;
+	color: #A4B3BF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 11px; 
 }
+/************** BLUE BAR BOILERPLATE ****************/
 /*
-nav.sub {
-	display:inline-block;
-	float: right;
-}*/
+nav.subnav {
+	display: inline;
+	}
 
-
-
-.bottom_left {
-	height: 60px;
-	display: inline-block;
-	float: left;
+#navlist, li.sub_right {
+  float: right;
+  list-style-type: none;
+  color: #A4B3BF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 11px; 
+  margin-top: 15px;
+  padding: 1;  
 }
 
-img.bottom_left {
-	display: inline-block;
-	float:left;
-}
-img.margin {
-	margin: 10px;	
+#navlist:last-child {
+  margin-right: 150px;
 }
 
-p.bottom_left {
-	display: inline-block;
-}
-/*
-ul.bottom_right {
-	display: inline-block;
-	float: right;
-}
 */
 
+
 #navlist {
-list-style: none;
-padding: 0;
-margin-left: 10px;
+	list-style: none;
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 50px;
 }
 
-#navlist li {
-display: inline;
-margin-left: 10px;
-padding: 0;
-margin: 0;
-font-size: 11px;
-color: #ffffff;
+#navlist, li.sub_right {
+	float: right;
+	margin-left: 10px;
+	padding: 0;
+	font-size: 11px;
+	color: #A4B3BF;
+	margin-top: 30px;
 }
 
 a.sub_right {
-	display:inline-block;
-	float: right;
 	color: #A4B3BF;
 	font-size: 12px;
-	padding-left: 10px;
-	padding-right: 10px;
 	font-family: 'PT Sans', sans-serif;
 
 }
-
+*/
 /*
 #navlist li:before { 
 	content: "| "; 
