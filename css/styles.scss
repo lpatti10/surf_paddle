@@ -1,5 +1,24 @@
 $primary_color: #E86EA4;
 
+@mixin post_titles {
+	position: absolute;
+  margin: 0px; 
+  bottom: 10px; 
+  left: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+
+
+@mixin caps_headings {
+	color: #206DB1;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+
+
+
 header {
 	margin: 0 auto;
 	background-image: url(../images/header.jpg);
@@ -96,21 +115,17 @@ aside {
 }
 
 h3 {
-	color: #206DB1;
+	@caps_headings;
 	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
 	font-size: 15px;
 	margin-top: 50px;
-	margin-bottom: 0px;
 }
 
 h4 {
-	color: #206DB1;
+	@caps_headings;
 	font-family: 'PT Sans', sans-serif;
-	text-transform: uppercase;
 	font-size: 12px;
 	text-align: center;
-	margin-bottom: 0px;
 }
 
 .contacts {
@@ -307,28 +322,18 @@ h2 {
 }
 
 .title_static:hover .title_static {
+  @include post_titles;
   color:#ffffff;  
   opacity:1;
 }
 
 .title_static { 
-  position: absolute;
-  margin: 0px; 
-  bottom: 10px; 
-  left: 10px;
+	@include post_titles;
   color: #ffffff;
-  font-family: 'Oswald', sans-serif;
-  font-size: 24px;
 }
 
 .title_hot { 
-  position: absolute;
-  margin: 0px; 
-  bottom: 10px; 
-  left: 10px;
   color: $primary_color;
-  font-family: 'Oswald', sans-serif;
-  font-size: 24px; 
 }
 
 img.photos {
