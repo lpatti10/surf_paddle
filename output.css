@@ -1,0 +1,50 @@
+/*
+Syntax error: Invalid CSS after "		margin:": expected pseudoclass or pseudoelement, was " 0 auto;"
+        on line 104 of styles.scss
+
+99: 	padding-left: 50px;
+100: 	padding-right: 50px;
+101: }
+102: 
+103: .avatar
+104: 		margin: 0 auto;
+105: 		text-align: center;
+106: 		margin-top: 40px;
+107: }
+108: 
+109: h3 {
+
+Backtrace:
+styles.scss:104
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1312:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1248:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:1228:in `expr!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:914:in `pseudo'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:794:in `simple_selector_sequence'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:759:in `_selector'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:727:in `selector'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:710:in `selector_sequence'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:632:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:659:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:652:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:116:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:409:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:274:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:378:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:357:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:250:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.3.8/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"		margin:\": expected pseudoclass or pseudoelement, was \" 0 auto;\"\A         on line 104 of styles.scss\A \A 99: 	padding-left: 50px;\A 100: 	padding-right: 50px;\A 101: }\A 102: \A 103: .avatar\A 104: 		margin: 0 auto;\A 105: 		text-align: center;\A 106: 		margin-top: 40px;\A 107: }\A 108: \A 109: h3 {"; }
