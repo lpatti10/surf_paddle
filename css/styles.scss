@@ -1,13 +1,5 @@
 $primary_color: #E86EA4;
 
-@mixin post_titles {
-	position: absolute;
-  margin: 0px; 
-  bottom: 10px; 
-  left: 10px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 24px;
-}
 
 
 @mixin caps_headings {
@@ -322,13 +314,13 @@ h2 {
 }
 
 .title_static:hover .title_static {
-  @include post_titles;
+	@import 'post_titles';
   color:#ffffff;  
   opacity:1;
 }
 
 .title_static { 
-	@include post_titles;
+	@import 'post_titles';
   color: #ffffff;
 }
 
