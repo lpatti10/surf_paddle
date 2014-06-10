@@ -1,5 +1,6 @@
 $primary_color: #E86EA4;
 
+@import 'normalize';
 
 
 @mixin caps_headings {
@@ -7,9 +8,6 @@ $primary_color: #E86EA4;
 	text-transform: uppercase;
 	margin-bottom: 0px;
 }
-
-
-
 
 header {
 	margin: 0 auto;
@@ -313,15 +311,24 @@ h2 {
   opacity:0;
 }
 
-.title_static:hover .title_static {
-	@import 'post_titles';
-  color:#ffffff;  
-  opacity:1;
+.title_static { 
+  position: absolute;
+  margin: 0px; 
+  bottom: 10px; 
+  left: 10px;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
 }
 
-.title_static { 
-	@import 'post_titles';
-  color: #ffffff;
+.title_hot { 
+  position: absolute;
+  margin: 0px; 
+  bottom: 10px; 
+  left: 10px;
+  color: #0D3451;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px; 
 }
 
 .title_hot { 
