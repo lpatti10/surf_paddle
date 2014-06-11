@@ -27,14 +27,17 @@ header {
 	left: 0px;
 }
 
-nav.main, a {
+nav.main, {
+
+	a {
 	 text-decoration: none;
 	 color: $primary_color;
-}
+	}
 
-nav.main, img {
+	img {
 	margin: 0;
 	padding: 0;
+	}
 }
 
 p.tagline { 
@@ -98,7 +101,7 @@ aside {
 	padding-right: 50px;
 }
 
-.avatar
+.avatar {
 		margin: 0 auto;
 		text-align: center;
 		margin-top: 40px;
